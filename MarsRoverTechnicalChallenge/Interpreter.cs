@@ -1,20 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Drawing;
 
 namespace MarsRoverTechnicalChallenge
 {
     class Interpreter
     {
-        private int maxX;
-        private int maxY;
+        private Point topRight;
 
-        public Interpreter(int maxX, int maxY)
+        public Interpreter(Point topRight)
         {
-            this.maxX = maxX;
-            this.maxY = maxY;
+            this.topRight = topRight;
         }
     }
 }
