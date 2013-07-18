@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace MarsRoverTechnicalChallenge
 {
     [TestFixture]
-    class InterpreterTest
+    class RoverTest
     {
         [Test]
         public void RoverStartingAtOriginGivenMReturnsZeroOne()
