@@ -5,11 +5,9 @@ namespace MarsRoverTechnicalChallenge
 {
     class Interpreter
     {
-        private Point topRight;
-
-        public Interpreter(Point topRight)
+        public static Point Interpret(Point topRight, Point start, string instructions)
         {
-            this.topRight = topRight;
+            throw new NotImplementedException();
         }
     }
 }
