@@ -7,6 +7,10 @@ namespace MarsRoverTechnicalChallenge
     [TestFixture]
     class InterpreterTest
     {
-        
+        [Test]
+        public void RoverStartingAtOriginGivenMReturnsZeroOne()
+        {
+
+        }
     }
 }
