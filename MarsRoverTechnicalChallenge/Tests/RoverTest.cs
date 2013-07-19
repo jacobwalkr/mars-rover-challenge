@@ -1,15 +1,14 @@
 ﻿using System;
-using NUnit.Framework;
 
 namespace MarsRoverTechnicalChallenge
 {
     [TestFixture]
-    class RoverTest
+    public class RoverTest
     {
         [Test]
         public void RoverStartingAtOriginGivenMReturnsZeroOne()
         {
-
+            Assert.IsTrue(false);
         }
     }
 }

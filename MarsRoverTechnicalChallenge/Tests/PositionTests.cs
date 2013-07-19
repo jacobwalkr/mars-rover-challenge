@@ -1,19 +1,18 @@
 ﻿using System;
-using NUnit.Framework;
 
-namespace MarsRoverTechnicalChallenge.Tests
+namespace MarsRoverTechnicalChallenge
 {
     [TestFixture]
-    class PositionTests
+    public class PositionTests
     {
         [Test]
         public void PositionGivenZeroZeroNConstructsCorrectly()
         {
-            var position = new Position(0, 0, Position.Orientation.N);
+            var position = new Position(0, 0, Orientation.N);
 
-            Assert.That(position.X, Is.EqualTo(0));
-            Assert.That(position.Y, Is.EqualTo(0));
-            Assert.That(position.Facing, Is.EqualTo(Position.Orientation.N));
+            Assert.AreEqual(position.X, 0);
+            Assert.AreEqual(position.Y, 0);
+            Assert.AreEqual(position.Facing, Orientation.N);
         }
     }
 }

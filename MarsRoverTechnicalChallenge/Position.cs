@@ -2,11 +2,11 @@
 
 namespace MarsRoverTechnicalChallenge
 {
+    enum Orientation { N, E, S, W };
+    enum Direction { L, R };
+
     class Position
     {
-        public static enum Orientation { N, E, S, W };
-        public static enum Direction { L, R };
-
         public int X { get; private set; }
         public int Y { get; private set; }
         public Orientation Facing { get; private set; }
