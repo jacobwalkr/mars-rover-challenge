@@ -7,10 +7,6 @@ namespace MarsRoverTechnicalChallengeTests
     [TestClass]
     public class RoverTest
     {
-        [TestMethod]
-        public void RoverStartingAtOriginGivenMReturnsZeroOne()
-        {
-            Assert.IsTrue(false);
-        }
+        
     }
 }
