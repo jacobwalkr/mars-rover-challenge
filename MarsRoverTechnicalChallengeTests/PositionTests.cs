@@ -1,11 +1,13 @@
 ﻿using System;
+using MarsRoverTechnicalChallenge;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MarsRoverTechnicalChallenge
+namespace MarsRoverTechnicalChallengeTests
 {
-    [TestFixture]
+    [TestClass]
     public class PositionTests
     {
-        [Test]
+        [TestMethod]
         public void PositionGivenZeroZeroNConstructsCorrectly()
         {
             var position = new Position(0, 0, Orientation.N);

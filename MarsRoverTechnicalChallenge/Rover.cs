@@ -2,7 +2,7 @@
 
 namespace MarsRoverTechnicalChallenge
 {
-    class Rover
+    public class Rover
     {
         private Position start;
         private Position limit;

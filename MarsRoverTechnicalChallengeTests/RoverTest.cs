@@ -1,11 +1,13 @@
 ﻿using System;
+using MarsRoverTechnicalChallenge;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MarsRoverTechnicalChallenge
+namespace MarsRoverTechnicalChallengeTests
 {
-    [TestFixture]
+    [TestClass]
     public class RoverTest
     {
-        [Test]
+        [TestMethod]
         public void RoverStartingAtOriginGivenMReturnsZeroOne()
         {
             Assert.IsTrue(false);
