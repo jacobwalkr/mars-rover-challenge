@@ -1,20 +1,19 @@
 ﻿using System;
-using System.Drawing;
 
 namespace MarsRoverTechnicalChallenge
 {
     class Rover
     {
-        private Point start;
-        private Point limit;
+        private Position start;
+        private Position limit;
 
-        public Rover(Point start, Point limit)
+        public Rover(Position start, Position limit)
         {
             this.start = start;
             this.limit = limit;
         }
 
-        public Point Go(string instructions)
+        public Position Go(string instructions)
         {
             throw new NotImplementedException();
         }
