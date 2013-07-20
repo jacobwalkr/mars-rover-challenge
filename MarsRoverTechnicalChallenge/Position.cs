@@ -43,5 +43,27 @@ namespace MarsRoverTechnicalChallenge
                 }
             }
         }
+
+        public void Move()
+        {
+            switch (this.Facing)
+            {
+                case Orientation.N:
+                    this.Y += 1;
+                    break;
+
+                case Orientation.E:
+                    this.X += 1;
+                    break;
+
+                case Orientation.S:
+                    this.Y -= 1;
+                    break;
+
+                case Orientation.W:
+                    this.X -= 1;
+                    break;
+            }
+        }
     }
 }
