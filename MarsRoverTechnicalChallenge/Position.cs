@@ -20,7 +20,28 @@ namespace MarsRoverTechnicalChallenge
 
         public void Rotate(Direction direction)
         {
-            throw new NotImplementedException();
+            if (direction == Direction.R)
+            {
+                if (this.Facing == Orientation.W)
+                {
+                    this.Facing = Orientation.N;
+                }
+                else
+                {
+                    this.Facing = (Orientation) this.Facing + 1;
+                }
+            }
+            else if (direction == Direction.L)
+            {
+                if (this.Facing == Orientation.N)
+                {
+                    this.Facing = Orientation.E;
+                }
+                else
+                {
+                    this.Facing = (Orientation) this.Facing - 1;
+                }
+            }
         }
     }
 }
