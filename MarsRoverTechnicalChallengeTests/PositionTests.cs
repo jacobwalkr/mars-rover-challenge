@@ -18,7 +18,7 @@ namespace MarsRoverTechnicalChallengeTests
         }
 
         [TestMethod]
-        public void PositionGivenZeroZeroNRotatedRReturnsFacingE()
+        public void PositionGivenZeroZeroNRotatedRFacesE()
         {
             var position = new Position(0, 0, Orientation.N);
             position.Rotate(Direction.R);
