@@ -39,16 +39,16 @@ namespace MarsRoverTechnicalChallengeTests
         }
 
         [TestMethod]
-        public void PositionGivenZeroZeroNRotatedLLLLFacesN()
+        public void PositionGivenZeroZeroWRotatedLLLLFacesW()
         {
-            var position = new Position(0, 0, Orientation.N);
+            var position = new Position(0, 0, Orientation.W);
 
             for (int i = 0; i < 4; i++)
             {
                 position.Rotate(Direction.L);
             }
 
-            Assert.AreEqual(Orientation.N, position.Facing);
+            Assert.AreEqual(Orientation.W, position.Facing);
         }
     }
 }

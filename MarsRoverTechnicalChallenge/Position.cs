@@ -35,7 +35,7 @@ namespace MarsRoverTechnicalChallenge
             {
                 if (this.Facing == Orientation.N)
                 {
-                    this.Facing = Orientation.E;
+                    this.Facing = Orientation.W;
                 }
                 else
                 {
